@@ -168,7 +168,7 @@ def metric_card(label, value, sub=""):
 # ─────────────────────────────────────────────
 if page == "🏠 Overview":
     st.title("Salesforce Analytics Dashboard")
-    st.markdown("High-level KPIs from your Salesforce data export. By Humberto Hernandez")
+    st.markdown("High-level KPIs from your Salesforce data export - by Humberto Hernandez")
 
     opp = opportunities.dropna(subset=["Amount"])
     acc = accounts.dropna(subset=["AnnualRevenue"])
