@@ -406,9 +406,9 @@ elif page == "📅 Monthly Revenue":
 
     st.markdown("""
     <div style="font-size:13px; color:#8b92a8; line-height:1.8; margin-top:8px; margin-bottom:16px;">
-    💡 Rapid ramp-up from Dec 2025 through Mar 2026 — pipeline was just getting started.<br>
+    💡 Rapid ramp-up from Dec 2025 through Mar 2026, the pipeline was just getting started.<br>
     🏆 <b style="color:#e8eaed;">March 2026</b> was the strongest month at $1.475M in closed revenue.<br>
-    📉 <b style="color:#e8eaed;">April's drop to $345K</b> likely reflects incomplete data — month may not be finished.<br>
+    📉 <b style="color:#e8eaed;">April's drop to $345K</b> likely reflects incomplete data; the month may not be finished.<br>
     📊 $3.645M total closed won revenue, almost entirely concentrated in <b style="color:#e8eaed;">Q1 2026</b>.
     </div>
     """, unsafe_allow_html=True)
@@ -785,10 +785,10 @@ elif page == "🏆 Account Rating Analysis":
     # ── Executive Insights ────────────────────────────────────
     st.markdown("""
     <div style="font-size:13px; color:#8b92a8; line-height:2; margin-top:4px; margin-bottom:20px;">
-    💡 <b style="color:#e8eaed;">Hot accounts</b> generate disproportionate revenue — high retention risk if any single account churns.<br>
-    📊 <b style="color:#e8eaed;">Cold accounts</b> show competitive avg revenue — re-engagement or upsell campaigns warranted.<br>
-    ⚠️ Rating distribution is uniform (2 per tier) — CRM scoring criteria may need recalibration to improve segmentation signal.<br>
-    🏆 <b style="color:#e8eaed;">Energy sector</b> dominates the Hot tier — portfolio is exposed to a single-industry concentration risk.
+    💡 <b style="color:#e8eaed;">Hot accounts</b> generate disproportionate revenue, high retention risk if any single account churns.<br>
+    📊 <b style="color:#e8eaed;">Cold accounts</b> show competitive avg revenue, re-engagement or upsell campaigns warranted.<br>
+    ⚠️ Rating distribution is uniform (2 per tier). CRM scoring criteria may need recalibration to improve segmentation signal.<br>
+    🏆 <b style="color:#e8eaed;">Energy sector</b> dominates the Hot tier, portfolio is exposed to a single-industry concentration risk.
     </div>
     """, unsafe_allow_html=True)
 
@@ -1023,14 +1023,14 @@ elif page == "👥 Contacts per Account":
     # ── Executive Insights ────────────────────────────────────
     st.markdown(f"""
     <div style="font-size:13px; color:#8b92a8; line-height:2; margin-top:4px; margin-bottom:20px;">
-    ⚠️ <b style="color:#e8eaed;">{at_risk_pct:.0f}% of accounts</b> have a single contact — 
-    any personnel change at those accounts creates immediate churn risk.<br>
-    🏆 <b style="color:#e8eaed;">United Oil & Gas Corp.</b> leads with 4 contacts — 
+    ⚠️ <b style="color:#e8eaed;">{at_risk_pct:.0f}% of accounts</b> have a single contact;
+    Any personnel change at those accounts creates immediate churn risk.<br>
+    🏆 <b style="color:#e8eaed;">United Oil & Gas Corp.</b> leads with 4 contacts, 
     the only account with institutional-grade relationship coverage.<br>
     📊 Portfolio average of <b style="color:#e8eaed;">{avg_contacts:.1f} contacts per account</b> 
     is below the 3-contact benchmark for enterprise sales health.<br>
     🎯 Priority action: expand contact depth at <b style="color:#e8eaed;">single-contact accounts</b> 
-    before next renewal cycle to reduce key-person dependency risk.
+    before the next renewal cycle to reduce key-person dependency risk.
     </div>
     """, unsafe_allow_html=True)
 
